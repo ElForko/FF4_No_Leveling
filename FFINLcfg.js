@@ -1,0 +1,9 @@
+var FFINLcfg = {};
+FFINLcfg.gamename = "Final Fantasy II";
+FFINLcfg.modname = "Final Fantasy II No Levels";
+FFINLcfg.prfn = "Final_Fantasy_II_No_Levels";
+FFINLcfg.useheader = "never";
+FFINLcfg.zipsave = "never";
+FFINLcfg.romlist = [{cs:"27d02a4f03e172e029c9b82ac3db79f7",ver:"1.1 US",pid:0,pcs:"9f2574777b4c2dcd53e56a9debb70167"}];
+FFINLcfg.usrlist = [{cs:"4fa9e542b954dcb954d5ce38188d9d41",ver:"1.0 US"}];
+FFINLcfg.patchlist = [{cs:"3db2e89b470ae16d91c5a87e93e8e0cc",hd:false}];
