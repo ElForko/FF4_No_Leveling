@@ -9,7 +9,6 @@ NOTE: This mod is still very much in development!  The later part of the game (i
 NOTE: Unequip your characters before they leave!  If they're wearing expensive equipment, then you'll lose their value!  Adding an auto-unequip for leaving characters is on my todo list but it hasn't been done yet.
 
 
-
 This mod removes XP and the leveling system from Final Fantasy IV, and then rebalances the game to work without levels.  Character stats are now static throughout the game (though can be boosted with equipment), and monster stats are all altered so fights "feel" roughly the same as when you play them at an appropriate level in vanilla.
 
 Character equipment is now the main source of character stat growth, and is relatively expensive, so gold sort of acts as the new XP.  Also tried to add a bit of variety to how each character plays (or at least the end-game characters): the men's equipment can be balanced between offense and defense, Rosa can be oriented towards casting or archery, and Rydia can be oriented towards Black magic or Summons.
@@ -18,7 +17,6 @@ Other changes have been made as well (i.e. the damage equation was completely re
 
 The mod is a bit harder than vanilla, but not substantially so.
 
-Big thanks to Crow, Chillyfeez, and Aexoden for their help with figuring out how to hack SNES assembly, (and again to Crow for his Equip Menu mod, Grimoire LD and Chillyfeez for the Critical Hit Fix mod, 
 
 
   Changes:
@@ -27,8 +25,8 @@ Leveling system removed, character and monster stats scaled.
 
 Weapons and Equipment completely overhauled.
 The hand/gauntlet armor slot is now always for rings, which act more like Relics from FF6
-Signicant boost to the number of 2-handed weapons.  Spears are now 2-handed, and 2-handed swords have a different icon
-Boomerangs, whips, axes, and harps have been removed, and a lot of other equipment has been removed too
+Significant boost to the number of 2-handed weapons.  Spears are now 2-handed, and 2-handed swords have a different icon
+Boomerangs, staves, whips, axes, and harps have been removed, and a lot of other equipment has been removed too
 
 Magic has been rebalanced.  Low rank spells are now more mp-efficient than their higher rank counterparts, and the cast times from most spells have been removed
 
@@ -56,13 +54,13 @@ The physical damage equation has been overhauled, so that damage is a bit less r
 
 Jump now only does 1.5x damage from the back row, instead of 2x
 
-Most game dialogue has been untouched.  The exception to this are the NPCs in Inns, who will give mod-specific hints
+Most game dialogue has been untouched.  The exception to this are the NPCs in Inns, who will give mod-specific hints, and the NPCs in the training room
 
 Most potions are self-cast only now (since you have to drink them).  Many potions have been removed too; elixers and other things that allow you to overpower a boss by spending money/resources are gone
 
 The cost of fleeing from battles is now always half of what you'd get from that battle, and costs of Exit and Smoke are way up, so casting them is not an easy work-around
 
-New claws so that Edge can continue filling Yang's roll as an elemental/racial weakness exploiting fighter (like FFVs Mystic Knight) through end-game (this is something he does well in vanilla btw up until the lunar core- pair a katana with a claw and he's a fucking beast!)
+New claws so that Edge can continue filling Yang's roll as an elemental/racial weakness exploiting fighter through end-game (this is something he does well in vanilla btw up until the lunar core... everyone says how Edge is useless, but pair a katana with a claw and he's a fucking beast against a lot of enemies!)
 
 Summons are now based on Will instead of Wisdom.  When equipping Rydia, you'll usually be choosing from equipment that either boosts wisdom & will, or equipment that provides a more substantial wisdom boost (making her black magic more powerful at the expense of her summons).  
 
@@ -87,7 +85,7 @@ The aerial weakness is now racial instead of elemental.
   Still needs to be done before 1.0 released:
 
 
-Enemies in Land of Summons and Sylph Cave to be scaled and tweaked so that they're harder, so that Summons, Sylpth, and Lunar Core feel like the final three dungeons.  Boss enemies to be added to all three, dropping weapons and skills that are effective on the weaknesses of other bosses, so the end-feels a bit like tackling the robot masters in a classic Mega Man
+Enemies in Land of Summons and Sylph Cave to be scaled and tweaked so that they're harder, so that Summons, Sylpth, and Lunar Core feel like the final three dungeons.  Boss enemies to be added to all three, dropping weapons and skills that are effective on the weaknesses of other bosses, so the end-game feels a bit like tackling the robot masters in a classic Mega Man
 
 Still want to add a lot more weapons and rings, and have some enemies drop rare items (though not with obscenely rare drop rates; like a 1/16 chance at worst)
 
@@ -101,7 +99,6 @@ Remove item duplication glitch
 
   Might add eventually (but probably after version 1.0 is released):
 
-
 Want to overhaul the ATB system (then add Slow and Haste back in as status effects).  Give Edge self-cast haste spell ("Quick")
 
 Add in agility boosting equipment after ATB overhaul.  Maybe have agility effect critical hit rate too (or some add some new stat that boosts crit)
@@ -110,17 +107,13 @@ Have charmed characters only attack, and not cast random spells
 
 Have berserked characters only attack front row enemies to avoid back-row penalty
 
-Overhaul Cover so that Cecil takes damage from the covered character's row (instead of his, so you can't cover front-row guys from the back and take little damage).  Also add a 1/8th chance for Cover not to trigger against weakened allies, so Cecil doesn't render low-health characters completely immune to physical damage
+Overhaul Cover so that Cecil takes damage from the covered character's row (instead of his, so you can't cover front-row characters from the back and take little damage).  Also add a 1/8th chance for Cover not to trigger, so Cecil doesn't render covered or low-health characters completely immune to physical damage
 
 Have self-cast spells bring up an unmoveable hand like in FF6, instead of just skipping the selection phase of the cast menu sequence
 
-Alter menu so irrelevant stats like Level and Defense Multiplier aren't shown
+Alter menu so removed stats like Level and Defense Multiplier aren't shown
 
 Have attacks undo sleep status, like with charm
-
-Change debuff-on-hit algorithm to take something other than level into account (maybe magic defense, maybe vitality, or maybe replace defense multiplier with some new stat)
-
-Add a Stona spell, and a Stona potion/salve
 
 Have Dart and Kick use physical damage equation and not ignore defense.  Give ninja stars Aerial attribute (so now fill the hole left by boomerang removal).  Have Kick inflict 1/2 the damage of Fight (without elemental/racial bonuses) to all enemies.
 
@@ -133,15 +126,15 @@ Maybe have Blink add a second image if the character already has one.
 
 
 
-Big thanks to:
+  Big thanks to:
 
 Aexoden, chillifeez, Crow! for answering my nooby questions and helping me learn the basics of general romhacking, how to hack FFIV specifically, and helping me figure out where the physical damage code is and how it works, where the sell-back price code is, and how to do the GP flee code
 
 Thanks again to Crow! for making the TLS Equipment Screen Mod, Grimoire LD and chillifeez for the Critical Hit Fix patch, and Dragoon ZERO for the Long Range Fix patch
 
-Bond617 for hosting his site rb.thundaga.com after slick productions went down, along with the docs he wrote
-
 Pinkpuff for making FF4kster open source, which was a massive help!
+
+Bond617 for hosting his site rb.thundaga.com after slick productions went down, along with the docs he wrote
 
 Thanks by extension to everyone who they thanked and made their work possible (especially whoever it was that wrote the Tower of Babil docs)
 
